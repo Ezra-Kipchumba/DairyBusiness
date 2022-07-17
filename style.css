@@ -1,9 +1,57 @@
+*{
+box-sizing: border-box;
+}
+
+
 body{
-    background-image:url(/assets/images/bgcows.jpg);
-    background-size: 150vh;
-    color: hsl(180, 100%, 94%);
-    margin: 0%;
-    padding: 0%;
+    background-image:url(./assets/images/bgcows.jpg);
+    background-size: cover;
+    height: 150vh;
+    opacity: 0.8;
+    background-color: aliceblue;
+    box-sizing: border-box;
+    
+}
+
+.sect1{
+    background-color: beige;
+    color: black;
+    border-radius: 10px;
+}
+.top{
+    text-align: left;
+    padding: 16px 8px;
+    font-size: 30px;
+    color: aliceblue;
+    display: flex;
+      
+}
+
+.topnav{
+    align-items: right;
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin-top: 65px;
+    font-size: 30px;
+    
+}
+
+.top h1{
+    border: 10px;
+    font-size: 60px;
+    color: black;
+}
+
+#start{
+    border: 20px;
+    background-color: rgb(244, 194, 68);
+    padding: 20px;
+    color: black;
+    border-radius: 10px;
+    margin: auto;
+    
+
 }
 
 .tble{
