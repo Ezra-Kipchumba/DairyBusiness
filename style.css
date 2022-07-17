@@ -9,7 +9,7 @@
 body{
     background-image:url(./assets/images/bgcows.jpg);
     background-size: cover;
-    height: 200vh;
+    height: 190vh;
     opacity: 0.8;
     background-color: aliceblue;
     box-sizing: border-box;
@@ -124,6 +124,23 @@ body{
     width: 50%;
 }
 
+.obtain{
+    background-color: rgba(240, 248, 255, 0.62);
+    font-size: xx-large;
+    width: 30%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.sub{
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
 td, th {
     border: 1px solid black;
     text-align: center;
@@ -153,6 +170,7 @@ td, th {
     background-color: black;
     color: aliceblue;
     padding: 80px;
+    border-radius: 10px;
 }
 .foot1{
     margin: 20px;

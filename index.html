@@ -53,10 +53,34 @@
 
             <p>For the four Sheds in the farm, we find the total produce of each shed.</p>
 
-            <a id="daily">ShedA</a>
-            <a id="daily">ShedB</a>
-            <a id="daily">ShedC</a>
-            <a id="daily">ShedD</a>
+            <div class="wtf">
+                <form>
+                    <div class="sheds">
+                        <label for="Shed">Shed</label>
+                    </div>
+            
+                        <div class="obtain">
+                                <select id="perShed" name="Shed">
+                                    <option value="510">ShedA</option>
+                                    <option value="308">ShedB</option>
+                                    <option value="486">ShedC</option>
+                                    <option value="572">ShedD</option>
+                                </select>
+                    
+                        <!-- <input type="text" id="shedA" name="fir" placeholder="00" value="510">
+                        <input type="text" id="shedB" name="fir" placeholder="00" value="308">
+                        <input type="text" id="shedC" name="fir" placeholder="00" value="486">
+                        <input type="text" id="shedD" name="fir" placeholder="00" value="572"> -->
+                        
+    
+                        <div class="sub">
+                            <input type="submit" value="Submit">
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+           
 
 
         </div>
@@ -66,72 +90,60 @@
 
             <h2>Sales</h2>
             <p>Monitor your income overtime either on a daily basis,weekly or anually</p>
-
-            <table>
-                <tr>
-                    <th>Month</th>
-                    <th>Income</th>
-                </tr>
-                <tr>
-                    <td><a>January</a></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td><a>February</a></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td><a>March</a></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td><a>April</a></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td><a>May</a></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td><a>June</a></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td><a>July</a></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td><a>August</a></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td><a>September</a></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td><a>October</a></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td><a>November</a></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td><a>December</a></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td><button>Total</button></td>
-                    <td></td>
-                </tr>   
-        </table>
         </div>
+
+        <div class="select2">
+
+        <select id="perShed" name="month">
+            <option value="510">January</option>
+            <option value="308">February</option>
+            <option value="486">March</option>
+            <option value="572">April</option>
+            <option value="510">May</option>
+            <option value="308">June</option>
+            <option value="486">July</option>
+            <option value="572">August</option>
+            <option value="510">September</option>
+            <option value="308">October</option>
+            <option value="486">November</option>
+            <option value="572">December</option>
+        </select>
+
+        <div class="sub">
+            <input type="submit" value="Submit">
+        </div>
+            
+        </div>
+        <!-- <div class="">
+            <input type="text" id="" name="lastname" placeholder="00" value="">
+        </div> -->
+
 
         <div class="reports">
             <h2>Reports of monthly income</h2>
             <p>On a <strong>Leap year</strong> consider making such amounts :</p>
             <p id="monthly"></p>
 
+        </div>
+        <div>
+            <select id="perShed" name="newamount">
+                <option value="510">January</option>
+                <option value="308">February</option>
+                <option value="486">March</option>
+                <option value="572">April</option>
+                <option value="510">May</option>
+                <option value="308">June</option>
+                <option value="486">July</option>
+                <option value="572">August</option>
+                <option value="510">September</option>
+                <option value="308">October</option>
+                <option value="486">November</option>
+                <option value="572">December</option>
+            </select>
+        </div>
+
+        <div class="sub">
+            <input type="submit" value="Submit">
         </div>
 
 

@@ -1,17 +1,9 @@
 // This is the production per shed 
 
-const perShed = (dailyproduce) => {
-    let produce = cow * dailyproduce;
-    return produce;
-
-}
-const shedA = 17 * 30;
-const shedB = 11 * 28;
-const shedC = 18 * 27;
-const shedD = 22 * 26;
-
-console.log((shedA, shedB, shedC, shedD));
-
+const shedA = document.getElementById("shedA").value;
+const shedB = document.getElementById("shedB").value;
+const shedC = document.getElementById("shedC").value;
+const shedD = document.getElementById("shedD").value;
 
 // Amount earned on regular basis 
 
@@ -48,12 +40,14 @@ const octAmount = incomeMonth(58156);
 const novAmount = incomeMonth(56280);
 const decAmount = incomeMonth(58156);
 
-console.log((decAmount));
+
+
 
 
 // Buying price at 49.60/= and difference from 45/= 
 
 const monthlyIncome = (monthproduce,newPrice= 49.60) => {
+
     let amount = monthproduce * newPrice;
 
     return amount;
