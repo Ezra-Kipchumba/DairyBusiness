@@ -70,5 +70,23 @@ tr{
 
 .sect2{
     border-top: 2px;
-    background-color: rgb(243, 245, 246);
+    background-color: rgb(221, 224, 226);
+    display: flex;
+    border-radius: 18px;
+}
+.stat{
+    font-size: xx-large;
+
+}
+.image{
+    /* display: flex;
+    justify-content: right; */
+    float: right;
+    border-radius: 50px;
+    width: 50%;
+    margin: 28px;
+}
+
+.sect3{
+    
 }
