@@ -48,6 +48,9 @@ const octAmount = incomeMonth(58156);
 const novAmount = incomeMonth(56280);
 const decAmount = incomeMonth(58156);
 
+console.log((decAmount));
+
+
 // Buying price at 49.60/= and difference from 45/= 
 
 const monthlyIncome = (monthproduce,newPrice= 49.60) => {

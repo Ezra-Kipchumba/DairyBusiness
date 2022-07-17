@@ -67,3 +67,8 @@ body{
 tr{
     border: 1px solid black;
 }
+
+.sect2{
+    border-top: 2px;
+    background-color: rgb(243, 245, 246);
+}
