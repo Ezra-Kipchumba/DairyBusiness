@@ -5,3 +5,17 @@ body{
     margin: 0%;
     padding: 0%;
 }
+
+.tble{
+    border: 1px solid black;
+    table-layout: auto;
+    width: 300px;
+    height: 300px;
+    margin-left: 50px;
+    padding-left: 50px;
+    background-color: rgb(243, 245, 246);
+    color: black;
+}
+tr{
+    border: 1px solid black;
+}
