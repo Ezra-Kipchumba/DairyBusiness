@@ -1,9 +1,14 @@
 // This is the production per shed 
 
-const shedA = document.getElementById("shedA").value;
-const shedB = document.getElementById("shedB").value;
-const shedC = document.getElementById("shedC").value;
-const shedD = document.getElementById("shedD").value;
+
+// const shedA = document.getElementById("shedA").value; 
+// shedA.addEventListener("onclick");
+// const shedB = document.getElementById("shedB").value;
+// sub.addEventListener("onclick");
+// const shedC = document.getElementById("shedC").value;
+// sub.addEventListener("onclick");
+// const shedD = document.getElementById("shedD").value;
+// sub.addEventListener("onclick");
 
 // Amount earned on regular basis 
 
