@@ -141,12 +141,6 @@ body{
     float: right;
 }
 
-td, th {
-    border: 1px solid black;
-    text-align: center;
-    padding: 2px;
-    box-sizing: border-box;
-} 
 .sheds{
     display: flex;
     justify-content: right;
@@ -171,6 +165,7 @@ td, th {
     color: aliceblue;
     padding: 80px;
     border-radius: 10px;
+    width: 100%;
 }
 .foot1{
     margin: 20px;
