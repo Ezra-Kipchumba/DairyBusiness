@@ -1,14 +1,14 @@
 // This is the production per shed 
 
 
-// const shedA = document.getElementById("shedA").value; 
-// shedA.addEventListener("onclick");
-// const shedB = document.getElementById("shedB").value;
-// sub.addEventListener("onclick");
-// const shedC = document.getElementById("shedC").value;
-// sub.addEventListener("onclick");
-// const shedD = document.getElementById("shedD").value;
-// sub.addEventListener("onclick");
+const shedA = document.getElementById("shedA").value; 
+shedA.addEventListener("onclick");
+const shedB = document.getElementById("shedB").value;
+sub.addEventListener("onclick");
+const shedC = document.getElementById("shedC").value;
+sub.addEventListener("onclick");
+const shedD = document.getElementById("shedD").value;
+sub.addEventListener("onclick");
 
 // Amount earned on regular basis 
 
@@ -20,7 +20,7 @@ const incomeOverTime = (dayProduce,buyingPrice) => {
 const totalWeekly = 13132 * 45;
 const totalYearly = 684740 * 45;
 
-console.log((totalWeekly, totalYearly));
+
 
 
 // Amount per Month on a leap year 
